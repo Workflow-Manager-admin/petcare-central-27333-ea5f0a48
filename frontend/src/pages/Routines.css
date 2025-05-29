@@ -1,0 +1,26 @@
+.routines-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.pcc-table {
+  border-collapse: collapse;
+  width: 100%;
+  background: var(--color-card);
+  border-radius: 9px;
+  overflow: hidden;
+}
+.pcc-table th, .pcc-table td {
+  padding: 10px 13px;
+  border-bottom: 1px solid var(--color-border);
+}
+.pcc-table th {
+  background: var(--color-secondary);
+  color: var(--color-accent);
+  text-align: left;
+}
+.pcc-table tr:last-child td {
+  border-bottom: none;
+}
