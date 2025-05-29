@@ -1,0 +1,23 @@
+.pcc-calendar-view {
+  background: var(--color-card);
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  padding: 19px;
+  margin-bottom: 20px;
+  min-height: 165px;
+}
+
+.pcc-calendar-heading {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+  color: var(--color-text);
+}
+
+.pcc-calendar-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 88px;
+  color: var(--color-muted);
+}
