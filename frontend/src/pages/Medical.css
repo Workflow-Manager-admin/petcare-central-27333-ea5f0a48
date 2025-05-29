@@ -1,0 +1,55 @@
+.medical-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 19px;
+}
+
+.medical-tabs {
+  display: flex;
+  gap: 7px;
+  margin-bottom: 17px;
+}
+
+.medical-tab {
+  font-size: 1rem;
+  padding: 7px 19px;
+  background: var(--color-secondary);
+  border: none;
+  border-radius: 5px 5px 0 0;
+  color: var(--color-accent);
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.13s;
+}
+
+.medical-tab.active {
+  background: var(--color-primary);
+  color: #fff;
+  box-shadow: 0 2px 9px 0 rgba(130,151,120,0.06);
+}
+
+.medical-records-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.medical-card {
+  background: var(--color-card);
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  padding: 19px;
+  min-width: 220px;
+  box-shadow: 0 2px 12px 0 rgba(130,151,120,0.07);
+  margin-bottom: 13px;
+  font-size: 1rem;
+  color: var(--color-accent);
+}
+
+.medical-date {
+  font-size: 0.9em;
+  color: var(--color-primary);
+  display: block;
+  margin-bottom: 6px;
+}
